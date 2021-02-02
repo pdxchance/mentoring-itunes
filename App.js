@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import  AlbumList  from './AlbumList';
+import  Cat  from './Cat';
 
 const Stack = createStackNavigator(
 );
@@ -15,7 +16,11 @@ class App extends React.Component {
         <Stack.Navigator>
           <Stack.Screen
             name="Home"
-            component={AlbumList}
+            component={Cat}
+          />
+          <Stack.Screen
+            name="Cats"
+            component={Cat}
           />
         </Stack.Navigator>
       </NavigationContainer>
