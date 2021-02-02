@@ -26,6 +26,6 @@ class App extends React.Component {
       </NavigationContainer>
     );
   }
-}
+} 
 
 export default App;
