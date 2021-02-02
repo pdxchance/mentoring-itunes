@@ -7,7 +7,7 @@ import  AlbumList  from './AlbumList';
 import  Cat  from './Cat';
 
 const Stack = createStackNavigator(
-);
+);  
 
 class App extends React.Component {
   render() {
@@ -26,6 +26,6 @@ class App extends React.Component {
       </NavigationContainer>
     );
   }
-} 
+}
 
 export default App;
