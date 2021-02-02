@@ -5,7 +5,8 @@ import AlbumList from './AlbumList'
 export default class App extends React.Component {
   render() {
     return (
-      <AlbumList /> 
+      <AlbumList />
+      
     );
   }
 }
