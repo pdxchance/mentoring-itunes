@@ -83,8 +83,6 @@ class AlbumList extends Component {
       )}
       />
       </SafeAreaView>
-
-
     );
   }
 }
