@@ -4,10 +4,10 @@ import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import  AlbumList  from './AlbumList';
-import  Cat  from './Cat';
+import  AlbumDetails  from './AlbumDetails';
 
 const Stack = createStackNavigator(
-);  
+);
 
 class App extends React.Component {
   render() {
@@ -15,12 +15,12 @@ class App extends React.Component {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
-            name="Home"
-            component={Cat}
+            name="Albums"
+            component={AlbumList}
           />
           <Stack.Screen
-            name="Cats"
-            component={Cat}
+            name="Details"
+            component={AlbumDetails}
           />
         </Stack.Navigator>
       </NavigationContainer>
